@@ -2029,7 +2029,7 @@ class BiliIntlBaseIE(InfoExtractor):
                 continue
             formats.append({
                 'url': aud['url'],
-                'ext': 'mp4',
+                'ext': 'm4a',
                 'abr': aud.get('bandwidth'),
                 'acodec': aud.get('codecs'),
                 'vcodec': 'none',
